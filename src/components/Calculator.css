@@ -1,0 +1,36 @@
+button{
+    width: 3em;
+    height: 3em;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 2em;
+    margin: 0.3em;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.wrapper{
+    background: rgb(116,237,199);
+background: linear-gradient(318deg, rgba(116,237,199,1) 0%, rgba(66,242,181,1) 31%, rgba(72,242,209,1) 50%, rgba(68,201,240,1) 77%);
+    border-radius: 1em;
+    padding: 1em;
+}
+
+.orange{
+    background-color: #FF9500;
+    color: white;
+}
+
+.gray{
+    background-color: #0392bb;
+    color: white;
+}
+.result{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1em;
+    font-size:3.5em;
+}
